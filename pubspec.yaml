@@ -1,0 +1,50 @@
+name: my_expense_tracker
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  auth_repo:
+    path: packages/auth_repo
+  auto_size_text: ^3.0.0
+  bloc: ^8.1.2
+  cloud_firestore: ^4.9.2
+  equatable: ^2.0.5
+  firebase_auth: ^4.10.0
+  firebase_core: ^2.16.0
+  fl_chart: ^0.63.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_easyloading: ^3.0.5
+  flutter_localizations:
+    sdk: flutter
+  geocoding: ^2.1.0
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.5.0
+  google_sign_in: ^6.1.5
+  googleapis: ^11.4.0
+  image_picker: ^1.0.4
+  intl: ^0.18.0
+  net_source:
+    path: packages/net_source
+  path_provider: ^2.1.1
+  services_repo:
+    path: packages/services_repo
+
+dev_dependencies:
+  bloc_test: ^9.1.4
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
