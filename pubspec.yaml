@@ -11,7 +11,7 @@ dependencies:
     path: packages/auth_repo
   auto_size_text: ^3.0.0
   bloc: ^8.1.2
-  cloud_firestore: ^4.9.2
+  cloud_firestore: ^4.9.3
   equatable: ^2.0.5
   firebase_auth: ^4.10.0
   firebase_core: ^2.16.0
